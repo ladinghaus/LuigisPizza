@@ -1,0 +1,47 @@
+#Menukarte, #Bestelldaten {
+  padding: 1em;
+}
+
+#Menukarte {
+  float: left;
+}
+
+#Bestelldaten {
+  float: right;
+}
+
+.header {
+  text-align: center;
+  padding: 0.5em;
+}
+
+#Danke {
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+}
+
+.Anzahl {
+  width: 3em;
+}
+
+#Bestellen {
+  float: right;
+}
+
+#Bestelldaten input {
+  width: 15em;
+}
+
+#Bestelldaten input#Postleitzahl {
+  width: 5em;
+}
+
+#Bestelldaten input#Stadt {
+  float: right;
+  width: 9em;
+}
+
+.borderless tr td{
+  border: none !important;
+}

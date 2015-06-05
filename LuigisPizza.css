@@ -1,0 +1,105 @@
+
+
+@font-face {
+  font-family: Lobster;
+  src: url(Lobster_1.3.otf);
+}
+
+.centering {
+  margin: 0 auto;
+  width: 55em;
+}
+
+.navbar {
+  background-color: #c92f2f !important;
+  /*border-color: #c92f2f !important;*/
+  border: none !important;
+}
+
+.navbar-brand {
+  background-color: #f6ede7 !important;
+  font-family: Lobster, serif;
+  color: #c92f2f !important;
+  font-size: 250% !important;
+}
+
+.nav a {
+  color: white !important;
+}
+
+
+#Menukarte, #Bestelldaten {
+  padding: 1em;
+}
+
+#Menukarte {
+  float: left;
+}
+
+#Bestelldaten {
+  float: right;
+}
+
+.header {
+  text-align: center;
+  padding: 0.5em;
+}
+
+#logo-navbar {
+  max-width: 40px !important;
+  max-height: 36px !important;
+  float: right !important;
+  margin: -8px 0 0 6px;
+}
+
+#logo {
+  max-width: 20%;
+  max-height: 20%;
+}
+
+#Bestellen-Navbar {
+  font-weight: bold;
+}
+
+#Danke {
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+}
+
+.Anzahl {
+  width: 3em;
+}
+
+#Bestellen {
+  float: right;
+}
+
+#Bestelldaten input {
+  width: 15em;
+}
+
+#Bestelldaten input#Postleitzahl {
+  width: 5em;
+}
+
+#Bestelldaten input#Stadt {
+  float: right;
+  width: 9em;
+}
+
+.borderless tr td{
+  border: none !important;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.container .text-muted {
+  margin: 15px 0;
+}
