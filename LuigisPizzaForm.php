@@ -3,10 +3,6 @@
 
 <body>
 <?php
-  $dbname = "mydb";
-  $dbhost = "localhost";
-  $dbuser = "root";
-  $dbpass = "quadangle";
 
   $SalamiKlein = $_POST['SalamiKlein'];
   $TonnoMittel = $_POST['TonnoMittel'];
@@ -22,14 +18,13 @@
   $Datum = date("d.m.Y");
   $Uhrzeit = date("H:i:s");
 
-  $dbconnection = mysql_connect($dbhost, $dbuser, $dbpass) or die(mysql_error());
-  mysql_select_db($dbname, $dbconnection) or die (mysql());
+  include "MysqlLogin.inc"
 
   $eingabe = "INSERT INTO Bestellungen (Name, Nachname, StrasseNummer, Postleitzahl, Stadt, Telefonnummer, SalamiKlein, TonnoMittel, HawaiiMittel, Datum , Uhrzeit)
     VALUES ('$Vorname', '$Nachname', '$StrasseNummer', '$Postleitzahl', '$Stadt', '$Telefonnummer', '$SalamiKlein', '$TonnoMittel', '$HawaiiMittel', '$Datum', '$Uhrzeit')";
 
   if (mysql_query($eingabe, $dbconnection)){
-    header("Location: http://localhost/~hanswurst/GerritsPizzaDanke.php");
+    header("Location: http://localhost/~hanswurst/LuigisPizzaDanke.php");
   } else {
     echo "Fehler!";
   }

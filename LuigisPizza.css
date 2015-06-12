@@ -27,19 +27,6 @@
   color: white !important;
 }
 
-
-#Menukarte, #Bestelldaten {
-  padding: 1em;
-}
-
-#Menukarte {
-  float: left;
-}
-
-#Bestelldaten {
-  float: right;
-}
-
 .header {
   text-align: center;
   padding: 0.5em;
@@ -61,31 +48,8 @@
   font-weight: bold;
 }
 
-#Danke {
-  font-size: 1.5em;
-  font-style: italic;
-  text-align: center;
-}
-
 .Anzahl {
   width: 3em;
-}
-
-#Bestellen {
-  float: right;
-}
-
-#Bestelldaten input {
-  width: 15em;
-}
-
-#Bestelldaten input#Postleitzahl {
-  width: 5em;
-}
-
-#Bestelldaten input#Stadt {
-  float: right;
-  width: 9em;
 }
 
 .borderless tr td{
@@ -102,4 +66,40 @@
 
 .container .text-muted {
   margin: 15px 0;
+}
+
+.login-content {
+  padding: 1em;
+}
+
+.btn {
+  float: right;
+}
+
+.login-btn {
+  width: 11em !important;
+}
+
+.carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+  positon: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  margin: auto;
+  height: 500px;
+}
+
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .item {
+  height: 500px;
+  background-color: white;
 }

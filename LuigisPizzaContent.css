@@ -10,6 +10,11 @@
   float: right;
 }
 
+#Kundendaten {
+  width: 31.8em;
+  padding: 2em;
+}
+
 .header {
   text-align: center;
   padding: 0.5em;
@@ -42,6 +47,24 @@
   width: 9em;
 }
 
+#Kundendaten input {
+  width: 15em;
+}
+
+#Kundendaten input#Postleitzahl {
+  width: 5em;
+}
+
+#Kundendaten input#Stadt {
+  float: right;
+  width: 9em;
+}
+
 .borderless tr td{
   border: none !important;
+}
+
+.table-striped th {
+  cursor: pointer;
+  cursor: hand;
 }

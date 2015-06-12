@@ -1,4 +1,7 @@
-
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 @font-face {
   font-family: Lobster;
@@ -52,14 +55,56 @@
   width: 3em;
 }
 
+.borderless tr td{
+  border: none !important;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  text-align: center;
+  height: 4em;
+  text-align: left;
   background-color: #f5f5f5;
+  margin: 6em 0 0 0;
 }
 
-.container .text-muted {
-  margin: 15px 0;
+.footer .container {
+  padding: 1em 2em 1em 2em;
+}
+
+.login-content {
+  padding: 1em;
+}
+
+.btn {
+  float: right;
+}
+
+.login-btn {
+  width: 11em !important;
+}
+
+.carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+  positon: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  margin: auto;
+  height: 40em;
+}
+
+.carousel {
+  height: 40em;
+  margin-bottom: 4em;
+}
+
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .item {
+  height: 40em;
+  background-color: white;
 }

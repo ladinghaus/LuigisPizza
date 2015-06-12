@@ -24,3 +24,15 @@
       $Header="LuigisPizzaHeader.inc";
       $Footer="LuigisPizzaFooter.inc";
     ?>
+
+    <?php
+      function LPactive($ActiveId) {
+        global $PageId;
+        if ($ActiveId === $PageId) {
+          echo " class=\"active\"";
+        }
+        else {
+          echo " ";
+        }
+      };
+    ?>
